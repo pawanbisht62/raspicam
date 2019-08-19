@@ -12,9 +12,9 @@ pub fn main() {
     // Initialize image settings with their default values.
     let image_settings: ImageSettings = ImageSettings::default();
 
-    // Capture image using click_image() function.
+    // Capture image using RaspberryPi's camera function.
     let result: Result<Output, Error> = click_image(camera_settings, image_settings);
 
-    // Print the resultant output.
+    // Print the resultant output or check the clicked image in the default path[~/picam.jpg].
     println!("{:?}", result);
 }
