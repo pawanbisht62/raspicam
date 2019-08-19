@@ -32,8 +32,8 @@ static IMAGE_VERTICAL_FLIP: &str = "-vf";
 /// # Example
 ///
 /// ```
-/// use picam::image::camera_operations::click_image;
-/// use picam::image::settings::{CameraSettings, ImageSettings};
+/// use raspicam::image::camera_operations::click_image;
+/// use raspicam::image::settings::{CameraSettings, ImageSettings};
 ///
 /// let camera_settings: CameraSettings = CameraSettings::default();
 /// let image_settings: ImageSettings = ImageSettings::default();

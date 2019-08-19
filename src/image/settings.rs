@@ -3,8 +3,8 @@
 /// # Example
 ///
 /// ```
-/// use picam::image::camera_operations::click_image;
-/// use picam::image::settings::CameraSettings;
+/// use raspicam::image::camera_operations::click_image;
+/// use raspicam::image::settings::CameraSettings;
 ///
 /// let camera_settings: CameraSettings = CameraSettings {
 ///        sharpness: "50",//or any value you want to modify
@@ -42,7 +42,7 @@ impl Default for CameraSettings {
     /// # Example
     ///
     /// ```
-    /// use picam::image::settings::CameraSettings;
+    /// use raspicam::image::settings::CameraSettings;
     ///
     /// let camera_settings: CameraSettings = CameraSettings::default();
     /// let test_camera_settings: CameraSettings = CameraSettings {
@@ -68,7 +68,7 @@ impl Default for CameraSettings {
             quality: "100",
             timeout: "3000",
             iso: "300",
-            output: "~/picam.jpg",
+            output: "~/raspicam.jpg",
         }
     }
 }
@@ -78,8 +78,8 @@ impl Default for CameraSettings {
 /// # Example
 ///
 /// ```
-/// use picam::image::camera_operations::click_image;
-/// use picam::image::settings::ImageSettings;
+/// use raspicam::image::camera_operations::click_image;
+/// use raspicam::image::settings::ImageSettings;
 ///
 /// let image_settings: ImageSettings = ImageSettings {
 ///        width: "50",//or any value you want to modify
@@ -111,7 +111,7 @@ impl Default for ImageSettings {
     /// # Example
     ///
     /// ```
-    /// use picam::image::settings::ImageSettings;
+    /// use raspicam::image::settings::ImageSettings;
     ///
     /// let image_settings: ImageSettings = ImageSettings::default();
     /// let test_image_settings: ImageSettings = ImageSettings {

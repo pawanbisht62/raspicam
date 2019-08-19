@@ -1,7 +1,7 @@
-extern crate picam;
+extern crate raspicam;
 
-use picam::image::camera_operations::click_image;
-use picam::image::settings::{CameraSettings, ImageSettings};
+use raspicam::image::camera_operations::click_image;
+use raspicam::image::settings::{CameraSettings, ImageSettings};
 use std::io::Error;
 use std::process::Output;
 
@@ -15,6 +15,6 @@ pub fn main() {
     // Capture image using RaspberryPi's camera function.
     let result: Result<Output, Error> = click_image(camera_settings, image_settings);
 
-    // Print the resultant output or check the clicked image in the default path[~/picam.jpg].
+    // Print the resultant output or check the clicked image in the default path[~/raspicam.jpg].
     println!("{:?}", result);
 }
