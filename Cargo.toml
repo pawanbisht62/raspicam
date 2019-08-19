@@ -2,6 +2,7 @@
 name = "picam"
 version = "0.1.0"
 authors = ["bishtpawan <pawan.bisht@knoldus.in>"]
+license = "Apache-2.0"
 description = "Tiny Rust library for playing with RaspberryPi's camera."
 repository = "https://github.com/bishtpawan/picam"
 edition = "2018"
