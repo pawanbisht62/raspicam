@@ -1,0 +1,9 @@
+[package]
+name = "picam"
+version = "0.1.0"
+authors = ["bishtpawan <pawan.bisht@knoldus.in>"]
+description = "Tiny Rust library for playing with RaspberryPi's camera."
+repository = "https://github.com/bishtpawan/picam"
+edition = "2018"
+
+[dependencies]
