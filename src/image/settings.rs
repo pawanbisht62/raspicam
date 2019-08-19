@@ -18,7 +18,7 @@
 ///           quality: "100",
 ///           timeout: "3000",
 ///           iso: "300",
-///           output: "~/picam.jpg",
+///           output: "~/raspicam.jpg",
 /// };
 ///
 /// assert_eq!(camera_settings, test_camera_settings);
@@ -53,7 +53,7 @@ impl Default for CameraSettings {
     ///           quality: "100",
     ///           timeout: "3000",
     ///           iso: "300",
-    ///           output: "~/picam.jpg",
+    ///           output: "~/raspicam.jpg",
     /// };
     ///
     /// assert_eq!(camera_settings, test_camera_settings);
