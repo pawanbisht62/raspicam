@@ -1,4 +1,4 @@
-/// Trigger the RaspberryPi Camera.
+/// Trigger the RaspberryPi Camera and capture picture.
 ///
 /// This module uses the bash command to access the Raspberry Pi's camera.
 
