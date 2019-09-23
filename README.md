@@ -12,15 +12,6 @@ We thrive for the best and want you to contribute towards a better Project. See 
 [dependencies]
 raspicam = "0.1.0"
 ```
-### Cross-compilation build for Raspberry Pi
-
-Run `cargo build --target=armv7-unknown-linux-gnueabihf` to get a cross compiled binary in `/target/armv7-unknown-linux-gnueabihf/debug/raspicam`
-
-## Running the binary
-
-```
-./raspicam
-```
 
 #### Example
 
