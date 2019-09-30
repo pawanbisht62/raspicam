@@ -12,6 +12,8 @@ We thrive for the best and want you to contribute towards a better Project. See 
 [dependencies]
 raspicam = "0.1.0"
 ```
+### Get project as a Crate
+https://crates.io/crates/raspicam
 
 #### Example
 
